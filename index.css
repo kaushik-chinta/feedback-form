@@ -36,6 +36,7 @@ main {
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    padding-inline: 30px;
 }
 
 .logo {
@@ -46,7 +47,7 @@ main {
 
 .hero-container {
     margin-inline: 50px;
-    max-width: 352px;
+    max-width: 300px;
     color: var(--text-primary);
 }
 
