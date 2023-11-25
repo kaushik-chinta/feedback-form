@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800&display=swap');
 
 :root {    
-    --bg-gradient:linear-gradient(90deg, #0A0E17 10.11%, #0C2241 97.23%);
+    --bg-gradient:linear-gradient(90deg, #0A0E17 10.11%, #0b1627 97.23%);
     --bg-primary: #0A0E17;
     --bg-secondary: #ffffff;
     --text-primary: #ffffff;
