@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800&display=swap');
+
+:root {    
+    --bg-gradient:linear-gradient(90deg, #0A0E17 10.11%, #0C2241 97.23%);
+    --bg-primary: #0A0E17;
+    --bg-secondary: #ffffff;
+    --text-primary: #ffffff;
+    --text-secondary: #0EA5E9;
+    --font-primary: 'Recursive', sans-serif;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+.highlight {
+    color: var(--text-secondary);
+}
+
+.hero-section {
+    height: 100%;
+    background: var(--bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.logo {
+    width: 130px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.hero-container {
+    margin-inline: 50px;
+    max-width: 352px;
+    color: var(--text-primary);
+}
+
+.hero-title {
+    margin-top: 15px;
+    margin-inline: auto;
+    font-family: Recursive;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+}
+
+.hero-description {
+    margin-top: 20px;
+    font-family: Recursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+}

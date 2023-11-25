@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <title>Potato Inc.</title>
+    </head>
+    <body>
+        <!-- Wrtie code for the navbar -->
+        <nav></nav>
+        
+        <main>
+            <!-- Write code for the heo section -->
+            <section class="hero-section">
+                <div class="hero-container">
+                    <img class="logo" src="./assets/logo.png" alt="Potato Inc." />
+                    <h2 class="hero-title">Give Us <span class="highlight"> Your </span> Feedback</h2>
+                    <p class="hero-description">Because You Matter!</p>
+                </div>
+            </section>
+            
+            <!-- Write code for the form section -->
+            <section>
+                <form>
+                    <div class="form-input">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+                    </div>
+
+                    <div class="form-input">
+                        <label for="rating">Rating</label>
+                        <div class="options">
+                            <input type="button" value="🤔" />
+                            <input type="button" value="🤔" />
+                            <input type="button" value="🤔" />
+                            <input type="button" value="🤔" />
+                            <input type="button" value="🤔" />
+                        </div>
+                    </div>
+
+
+                    <div class="form-input">
+                        <label for="comment">Comments</label>
+                        <textarea type="" id="comment"></textarea>
+                    </div>
+
+                    <button type="submit">
+                        <span class="">Submit</span>
+                        <img alt="submit" src="./assets/submit.svg" />
+                    </button>
+                </form>
+
+                <!-- This section should be shown when the form is submitted -->
+                <section hidden="hidden">
+                    <h3>Thank You!</h3>
+                    <p>We appreciate that you have taken the time to complete this form!</p>
+                </section>
+            </section>
+        </main>
+
+        <!-- Write code for the fotter -->
+        <footer></footer>
+    </body>
+</html>
