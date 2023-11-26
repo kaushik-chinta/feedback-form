@@ -77,3 +77,12 @@ main {
     background-size: cover;
     width: 100%;
 }
+
+#thank-you {
+    display: none;
+    position: relative;
+    top: -100px; /* Start off-screen */
+    left: 10px;
+    opacity: 0;
+    transition: opacity 2.5s ease, top 1s; 
+}

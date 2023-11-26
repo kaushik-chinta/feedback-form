@@ -22,7 +22,7 @@
             
             <!-- Write code for the form section -->
             <section class="form-section">
-                <form>
+                <form id="myform">
                     <div class="form-input">
                         <label for="name">Name</label>
                         <input type="text" id="name" />
@@ -50,16 +50,20 @@
                         <img alt="submit" src="./assets/submit.svg" />
                     </button>
                 </form>
-
-                <!-- This section should be shown when the form is submitted -->
-                <section hidden="hidden">
-                    <h3>Thank You!</h3>
-                    <p>We appreciate that you have taken the time to complete this form!</p>
-                </section>
             </section>
+            
+            <!-- This section should be shown when the form is submitted -->
+            <section id="thank-you">
+              <h3>Thank You!</h3>
+              <p>We appreciate that you have taken the time to complete this form!</p>
+            </section>
+
         </main>
 
-        <!-- Write code for the fotter -->
+         <!-- Linking to an external JavaScript file -->
+        <script src="index.js"></script>
+
+        <!-- Write code for the footer -->
         <footer></footer>
     </body>
 </html>
