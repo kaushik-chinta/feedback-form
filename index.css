@@ -168,7 +168,6 @@ main {
 }
 
 #thank-you {
-    display: none;
     position: absolute;
     top: -100px; /* Start off-screen */
     left: 10px;
@@ -178,6 +177,17 @@ main {
     height: 100;
     text-align: center;
     transform: translateY(-50%);
+}
+
+#thank-you.visible {
+    opacity: 1;
+    top: 50%;
+}
+
+#feedback-form.hidden {
+    opacity: 0;
+    transform: translateY(500%);
+    transition: all 2.5s ease;; 
 }
 
 .active {

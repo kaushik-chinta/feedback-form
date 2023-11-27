@@ -9,15 +9,6 @@ emojis.forEach(emoji => {
 
 document.getElementById("feedback-form").addEventListener("submit", (event)  => {
     event.preventDefault();
-
-    // Hide the form section
-    document.querySelector("#feedback-form").style.display = 'none';
-
-    // Show the thank-you section with a fade-in effect
-    var thankYouSection = document.getElementById("thank-you");
-    thankYouSection.style.display = "block";
-    setTimeout(function() {
-        thankYouSection.style.opacity = "1";
-        thankYouSection.style.top = '50%';
-    }, 50); // Delay the opacity change to ensure the display change takes effect
+    document.querySelector("#feedback-form").classList.add("hidden");
+    document.getElementById("thank-you").classList.add("visible");
 });
