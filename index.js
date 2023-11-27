@@ -7,7 +7,7 @@ emojis.forEach(emoji => {
     });
 });
 
-document.getElementById("myform").addEventListener("submit", function(event) {
+document.getElementById("feedback-form").addEventListener("submit", (event)  => {
     event.preventDefault();
 
     // Hide the form section
