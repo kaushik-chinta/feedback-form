@@ -11,7 +11,7 @@ document.getElementById("feedback-form").addEventListener("submit", (event)  => 
     event.preventDefault();
 
     // Hide the form section
-    document.querySelector(".form-section").style.display = 'none';
+    document.querySelector("#feedback-form").style.display = 'none';
 
     // Show the thank-you section with a fade-in effect
     var thankYouSection = document.getElementById("thank-you");

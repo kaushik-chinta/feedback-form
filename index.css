@@ -72,16 +72,27 @@ main {
 }
 
 .form-section {
-    background-image: url('./assets/background.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    position: relative;
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./assets/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;; 
+    z-index: -100;
+}
+
 .form-box{
     display: flex;
     flex-direction: column;
@@ -158,7 +169,7 @@ main {
 
 #thank-you {
     display: none;
-    position: relative;
+    position: absolute;
     top: -100px; /* Start off-screen */
     left: 10px;
     opacity: 0;
@@ -166,6 +177,7 @@ main {
     width: 100%;
     height: 100;
     text-align: center;
+    transform: translateY(-50%);
 }
 
 .active {
