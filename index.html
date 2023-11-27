@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./index.css">
         <title>Potato Inc.</title>
+        <script src="./index.js" defer></script>
     </head>
     <body>
         <!-- Wrtie code for the navbar -->
@@ -22,7 +23,7 @@
 
             <!-- Write code for the form section -->
             <section class="form-section">
-                <form>
+                <form id="feedback-form">
                     <div class = "form-box">
                         <div class="form-title">Tell us what you think</div>
                         <div class="form-input">
@@ -33,11 +34,11 @@
                         <div class="form-input">
                             <label for="rating">Rating</label>
                             <div class="options">
-                                <input class = "emojis" type="button" value="😃" />
-                                <input class = "emojis" type="button" value="🙂" />
-                                <input class = "emojis" type="button" value="😐" />
-                                <input class = "emojis" type="button" value="😠" />
-                                <input class = "emojis" type="button" value="🤬" />
+                                <input class="emojis" type="button" value="😃" />
+                                <input class="emojis" type="button" value="🙂" />
+                                <input class="emojis" type="button" value="😐" />
+                                <input class="emojis" type="button" value="😠" />
+                                <input class="emojis" type="button" value="🤬" />
                             </div>
                         </div>
                         <div class="form-input">
@@ -57,13 +58,10 @@
             <section id="thank-you">
                 <h3>Thank You!</h3>
                 <p>We appreciate that you have taken the time to complete this form!</p>
+                <img class="success" src="./assets/check.svg" alt="success">
             </section>
   
         </main>
-        
-        <!-- Linking to an external JavaScript file -->
-        <script src="index.js"></script>
-
         <!-- Write code for the footer -->
         <footer></footer>
     </body>

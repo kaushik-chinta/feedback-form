@@ -1,4 +1,13 @@
-document.getElementById("myform").addEventListener("submit", function(event) {
+const emojis = document.querySelectorAll('.emojis');
+
+emojis.forEach(emoji => { 
+    emoji.addEventListener('click', () => {
+        emojis.forEach(emoji => emoji.classList.remove('active'));
+        emoji.classList.add('active');
+    });
+});
+
+document.getElementById("feedback-form").addEventListener("submit", (event)  => {
     event.preventDefault();
 
     // Hide the form section
