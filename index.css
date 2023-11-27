@@ -154,6 +154,15 @@ main {
     font-family: Recursive;
 }
 
+#thank-you {
+    display: none;
+    position: relative;
+    top: -100px; /* Start off-screen */
+    left: 10px;
+    opacity: 0;
+    transition: opacity 2.5s ease, top 1s; 
+}
+
 
 /* .hidden{
     display: flex;
