@@ -9,7 +9,7 @@
     <body>
         <!-- Wrtie code for the navbar -->
         <nav></nav>
-        
+
         <main>
             <!-- Write code for the hero section -->
             <section class="hero-section">
@@ -19,48 +19,49 @@
                     <p class="hero-description">Because You Matter!</p>
                 </div>
             </section>
-            
+
             <!-- Write code for the form section -->
             <section class="form-section">
-                <form id="myform">
-                    <div class="form-input">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" />
-                    </div>
-
-                    <div class="form-input">
-                        <label for="rating">Rating</label>
-                        <div class="options">
-                            <input type="button" value="🤔" />
-                            <input type="button" value="🤔" />
-                            <input type="button" value="🤔" />
-                            <input type="button" value="🤔" />
-                            <input type="button" value="🤔" />
+                <form>
+                    <div class = "form-box">
+                        <div class="form-title">Tell us what you think</div>
+                        <div class="form-input">
+                            <label for="name">Name</label><br>
+                            <input class = "name-box" type="text" id="name" />
                         </div>
+
+                        <div class="form-input">
+                            <label for="rating">Rating</label>
+                            <div class="options">
+                                <input class = "emojis" type="button" value="😃" />
+                                <input class = "emojis" type="button" value="🙂" />
+                                <input class = "emojis" type="button" value="😐" />
+                                <input class = "emojis" type="button" value="😠" />
+                                <input class = "emojis" type="button" value="🤬" />
+                            </div>
+                        </div>
+                        <div class="form-input">
+                            <label for="comment">Comments</label><br>
+                            <textarea class="comment-box" type="" id="comment"></textarea>
+                        </div>
+
+                        <button class = "submit-button" type="submit">
+                            <span>Submit</span>
+                            <img alt="submit" src="./assets/submit.svg" />
+                        </button>
                     </div>
-
-
-                    <div class="form-input">
-                        <label for="comment">Comments</label>
-                        <textarea type="" id="comment"></textarea>
-                    </div>
-
-                    <button type="submit">
-                        <span class="">Submit</span>
-                        <img alt="submit" src="./assets/submit.svg" />
-                    </button>
                 </form>
             </section>
             
             <!-- This section should be shown when the form is submitted -->
             <section id="thank-you">
-              <h3>Thank You!</h3>
-              <p>We appreciate that you have taken the time to complete this form!</p>
+                <h3>Thank You!</h3>
+                <p>We appreciate that you have taken the time to complete this form!</p>
             </section>
-
+  
         </main>
-
-         <!-- Linking to an external JavaScript file -->
+        
+        <!-- Linking to an external JavaScript file -->
         <script src="index.js"></script>
 
         <!-- Write code for the footer -->
