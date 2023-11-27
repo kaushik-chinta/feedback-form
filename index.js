@@ -1,3 +1,12 @@
+const emojis = document.querySelectorAll('.emojis');
+
+emojis.forEach(emoji => { 
+    emoji.addEventListener('click', () => {
+        emojis.forEach(emoji => emoji.classList.remove('active'));
+        emoji.classList.add('active');
+    });
+});
+
 document.getElementById("myform").addEventListener("submit", function(event) {
     event.preventDefault();
 

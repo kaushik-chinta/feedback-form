@@ -142,6 +142,7 @@ main {
     border: none;
     margin-right: 15px ;
     cursor: pointer;
+    opacity: 0.6;
 }
 
 #comment,  #name{
@@ -161,6 +162,10 @@ main {
     left: 10px;
     opacity: 0;
     transition: opacity 2.5s ease, top 1s; 
+}
+
+.active {
+    opacity: 1;
 }
 
 
